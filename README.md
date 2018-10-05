@@ -11,6 +11,8 @@ To start the project, please clone the repo and run it using android studio. Oth
 The resources that I used for this application were mainly related to android specfic questions (such as setting up a listview)
 through Stackoverflow, and youtube. 
 
+* Rosevear,lonelyTwitter, https://github.com/Rosevear/lonelyTwitter, Retrieved Sept 30,2018. (utilized SaveinfFile and Loadfromfile functions!)
+
 * Domchi, Sort objects in ArrayList by date?, https://stackoverflow.com/questions/5927109/sort-objects-in-arraylist-by-date, posted May 8, 2011, Retrieved on Sept 25
 
 * Buttons, Android Developer Guide, https://developer.android.com/guide/topics/ui/controls/button#java , Accessed on September 15
