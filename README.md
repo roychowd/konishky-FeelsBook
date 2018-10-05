@@ -6,7 +6,7 @@ You may find the apk in the apkfile in the root directory. The uml resides in th
 
 Here is a youtube link : https://www.youtube.com/watch?v=yknAySQ-yWs&feature=youtu.be
 
-To start the project, please clone the repo and run it using android studio. Otehrwise, you could find the apk file inside the apkfile/ folder. 
+To start the project, please clone the repo and run it using android studio. Otherwise, just run the apk file.
 
 The resources that I used for this application were mainly related to android specfic questions (such as setting up a listview)
 through Stackoverflow, and youtube. 
@@ -23,7 +23,10 @@ through Stackoverflow, and youtube.
 
 * Recycler View, Android Fundamentals v2: RecyclerView,https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/index.html?index=..%2F..%2Fandroid-training#0 , Accessed on Sept 16
 
-Notice: The android v2 Fundamentals course uses the Apache License as follows: 
+Notice: 
+
+
+The android v2 Fundamentals course uses the Apache License as follows: 
 
 '''
 2018 - Google - Apache License 
