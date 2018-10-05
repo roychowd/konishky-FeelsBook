@@ -1,3 +1,10 @@
+
+// NOTE: THE CODE FROM THIS CLASS WAS REUSED FROM CMPUT 301 LAB - LONELY TWITTER. ALL RIGHTS ARE RESERVED TO THE OWNER
+// OF THIS REPO : https://github.com/Rosevear/lonelyTwitter
+// IMPLEMENTED LOADFROMFILE AND SAVEINFILE FROM LONELYTWITTER LAB IN CMPUT 301
+// THANKS TO SHAIFUL CHOWDHURY AND ALL OTHER TAS IN THAT LAB SECTION FOR GOING OVER THE CODE
+
+
 package com.example.konishky_feelsbook;
 
 import android.content.Context;
@@ -19,6 +26,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 
+
 public class SaveListState {
     private static final String FILENAME = "file.sav";
     private Context context;
@@ -27,6 +35,8 @@ public class SaveListState {
     SaveListState(Context context) {
         this.context = context;
     }
+
+
 
 
 
@@ -58,9 +68,6 @@ public class SaveListState {
         try {
             FileOutputStream fos =  context.openFileOutput(FILENAME, 0);
             OutputStreamWriter osw  = new OutputStreamWriter(fos);
-            // open a file output string which is a byte string and when i created a ouput stream writere instance it becomes a writer stream
-            // data will wrtie character b ycharacter = ineffiecnet
-            //we need buffered writere
             BufferedWriter writer = new BufferedWriter(osw);
             Gson gson = new Gson();
             gson.toJson( EmotionList.getEmotionList(), writer);
@@ -75,8 +82,6 @@ public class SaveListState {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-//		catch (TweetTooLongException e) {
-//            e.printStackTrace();
-//        }
+
     }
 }

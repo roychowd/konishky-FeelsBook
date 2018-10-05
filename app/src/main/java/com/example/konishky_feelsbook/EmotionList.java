@@ -86,6 +86,7 @@ public class EmotionList{
 
 
     // sorts the emotionlist by date
+    // utilized this resouce from stack overflow: https://stackoverflow.com/questions/5927109/sort-objects-in-arraylist-by-date
     public void sortArray() {
         Collections.sort(emotionArray, new Comparator<Emotion>() {
             @Override

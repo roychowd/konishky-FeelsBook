@@ -47,7 +47,7 @@ public class EditEmotion extends AppCompatActivity {
     }
 
 
-    // when user clicks change the it edits the info about that particular information
+    // when user clicks change the it edits the info about that particular information and saves state into internal storage
     public void onChangeClick(View view) {
         Emotion newEmotion = new Emotion(mEmotionName.getText().toString());
         newEmotion.setDate(mDateField.getText().toString());

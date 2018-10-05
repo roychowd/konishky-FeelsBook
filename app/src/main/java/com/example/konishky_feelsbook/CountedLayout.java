@@ -14,6 +14,8 @@ public class CountedLayout extends AppCompatActivity {
     HashMap<String,Integer> countMap = new HashMap<>();
     ListView countedListView;
 
+
+    // INITIALIZED HASHMAP
     private void setCountMap(HashMap<String, Integer> countMap) {
         countMap.put("Fear", 0);
         countMap.put("Sadness", 0);
@@ -39,7 +41,7 @@ public class CountedLayout extends AppCompatActivity {
 
     }
 
-
+    // FUNCTION THAT UPDATES THE HASHMAP WITH COUNTS
     private void getCounts(ArrayList<Emotion> emotionArr) {
         for (int i = 0; i < emotionArr.size(); i++) {
             Emotion e = emotionArr.get(i);

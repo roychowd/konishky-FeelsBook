@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.example.konishky_feelsbook.extra.MESSAGE";
 
+    // loads state from SaveListState class
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         stateChanger.loadFromFile();
     }
 
+    // saves in statechanger class
     public void startClickActivity(String mEmotionString) {
 
         Emotion newEmotion = new Emotion(mEmotionString);
