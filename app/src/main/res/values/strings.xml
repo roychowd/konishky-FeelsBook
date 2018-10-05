@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Konishky-FeelsBook</string>
+    <string name="entry_text">Please Click on an Emotion</string>
+    <string name="Anger">Anger</string>
+    <string name="Fear">Fear</string>
+    <string name="Joy">Joy</string>
+    <string name="Love">Love</string>
+    <string name="Sadness">Sadness</string>
+    <string name="Surprised">Surprised</string>
+    <string name="emotion_activity_commentTextView">Comment</string>
+    <string name="date_added">Date Added</string>
+    <string name="comment_textview">Comment</string>
+    <string name="optional">Optional</string>
+    <string name="Add_button">Add</string>
+    <string name="Add_Comment">Add Optional Comment</string>
+    <string name="view_count">View Count</string>
+    <string name="edit_comment">Edit</string>
+    <string name="delete_string">Delete</string>
+    <string name="add_emotion">Add Emotion</string>
+    <string name="skip">Skip</string>
+    <string name="view_history">View History</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditEmotion">
+
+    <TextView
+        android:id="@+id/emotionTextView_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/date_added"
+        app:layout_constraintBottom_toBottomOf="@+id/date_text_change"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emotionTextView_Edit" />
+
+    <EditText
+        android:id="@+id/date_text_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toEndOf="@+id/dateEdit"
+        app:layout_constraintTop_toBottomOf="@+id/emotionTextView_Edit"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/edit_comment_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/comment_textview"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Optional_comment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_text_change" />
+
+    <EditText
+        android:id="@+id/edit_comment_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/optional"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toEndOf="@+id/edit_comment_TextView"
+        app:layout_constraintTop_toBottomOf="@+id/date_text_change" />
+
+    <Button
+        android:id="@+id/change_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="40dp"
+        android:onClick="onChangeClick"
+        android:text="@string/edit_comment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/deleteButton" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="#d34836  "
+        android:onClick="onDeleteClick"
+        android:text="@string/delete_string"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
