@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Oct 04 19:11:39 MDT 2018
-0.baseType=DIRECTORY
-0.base=/Users/dhrubachowdhury/Desktop/Temp Files/konishky-FeelsBook/app/build/intermediates/transforms/dexMerger/debug/33
-0.path=classes.dex
-0.set=DEX
-count=1
